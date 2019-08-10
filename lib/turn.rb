@@ -43,3 +43,4 @@ def turn (board)
       input = gets.strip
   end
 end
+end
