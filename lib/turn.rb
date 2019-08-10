@@ -33,20 +33,5 @@ def move(board, index, current_player = "X")
 end
 
 def turn (board)
-  turn = 0
-  while turn < 9
-  puts "Please enter 1-9: "
-  input = gets.strip
-  input_to_index(input.to_i-1)
-
-  if !valid_move?(board,input.to_i)
-  until valid_move?(board,input.to_i)==true
-    puts "Please enter 1-9: "
-    input = gets.strip
-  end
-  end
-  move(board,input.to_i,current_player="X")
-  display_board(board)
-  turn+=1
-  end
+  
 end
