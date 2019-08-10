@@ -32,7 +32,7 @@ def move(board, index, current_player = "X")
   board[index] = current_player
 end
 
-def turn 
+def turn
   turn = 0
   while turn < 9
   puts "Please enter 1-9: "
