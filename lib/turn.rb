@@ -40,6 +40,7 @@ def turn (board)
     move(board,input, current_player = "X")
   else
     while valid_move?(board,input)!=true
+      puts "Please enter 1-9:"
       input = gets.strip
   end
 end
